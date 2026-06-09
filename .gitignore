@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.eggs/
+*.egg
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+
+# Build output
+build/
+dist/
+*.spec
+
+# Model files (large, can be re-downloaded)
+*.pt
+
+# Video files
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Data images
+data/
+
+# Generated reports
+安全监控事件报告*.txt
+事件报告_*.txt
+*car_flow_result*.txt
+crash_log*.txt
+startup_log*.txt

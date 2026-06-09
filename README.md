@@ -5,16 +5,13 @@
   <h1>🏠 家庭安全监控检测系统</h1>
   <p><strong>YOLOv8 人脸检测</strong> · <strong>通义千问视觉大模型</strong> · <strong>实时报警</strong> · <strong>自动录像</strong></p>
   <p>
-    <img src="https://img.shields.io/badge/Python-3.8%2B-3776AB?logo=python&logoColor=white" alt="Python"/>
-    <img src="https://img.shields.io/badge/YOLOv8-face-00C853?logo=ultralytics&logoColor=white" alt="YOLOv8"/>
-    <img src="https://img.shields.io/badge/Qwen--VL-阿里云-FF6F00?logo=alibabacloud&logoColor=white" alt="Qwen-VL"/>
-    <img src="https://img.shields.io/badge/OpenCV-4.x-5C3EE8?logo=opencv&logoColor=white" alt="OpenCV"/>
-    <img src="https://img.shields.io/badge/license-MIT-FFD700" alt="License"/>
+    Python 3.8+ &nbsp;|&nbsp; YOLOv8-face &nbsp;|&nbsp; Qwen-VL &nbsp;|&nbsp; OpenCV &nbsp;|&nbsp; MIT License
   </p>
   <p>
     <a href="#-快速开始">🚀 快速开始</a> ·
     <a href="#-核心功能">✨ 功能</a> ·
     <a href="#️-配置参数">⚙️ 配置</a> ·
+    <a href="#-项目结构">📁 结构</a> ·
     <a href="#-技术栈">🛠️ 技术栈</a>
   </p>
   <br>
@@ -23,17 +20,14 @@
 ---
 
 <div align="center">
-  <a href="https://github.com/LKFAN-Ops/home-security-monitor/stargazers">
-    <img src="https://img.shields.io/github/stars/LKFAN-Ops/home-security-monitor?style=social&label=Star%20这个项目" alt="stars"/>
-  </a>
-  &nbsp;
-  <a href="https://github.com/LKFAN-Ops/home-security-monitor/forks">
-    <img src="https://img.shields.io/github/forks/LKFAN-Ops/home-security-monitor?style=social&label=Fork" alt="forks"/>
-  </a>
-  &nbsp;
-  <a href="https://github.com/LKFAN-Ops/home-security-monitor/issues">
-    <img src="https://img.shields.io/github/issues/LKFAN-Ops/home-security-monitor?style=social&label=Issues" alt="issues"/>
-  </a>
+  <h3>⭐ 如果这个项目对你有帮助，请点个 Star 支持一下！</h3>
+  <p>
+    <a href="https://github.com/LKFAN-Ops/home-security-monitor/stargazers">🌟 Star</a>
+    &nbsp;|&nbsp;
+    <a href="https://github.com/LKFAN-Ops/home-security-monitor/forks">🍴 Fork</a>
+    &nbsp;|&nbsp;
+    <a href="https://github.com/LKFAN-Ops/home-security-monitor/issues">🐛 Issues</a>
+  </p>
 </div>
 
 <br>
@@ -100,7 +94,7 @@ pip install ultralytics opencv-python openai requests pillow
 
 ### 配置 API Key
 
-> 所有模块统一通过环境变量 `DASHSCOPE_API_KEY` 读取，**代码中不留任何密钥**，安全无忧。
+所有模块统一通过环境变量 `DASHSCOPE_API_KEY` 读取，**代码中不留任何密钥**，安全无忧。
 
 ```powershell
 # 推荐：设置为用户环境变量（持久化）
@@ -188,10 +182,6 @@ pyinstaller 家庭安全监控工具.spec
   <h3>⭐ 如果这个项目对你有帮助，请点个 Star 支持一下！</h3>
   <p>你的支持是我持续改进的动力 🚀</p>
   <br>
-  <a href="https://github.com/LKFAN-Ops/home-security-monitor/stargazers">
-    <img src="https://img.shields.io/github/stars/LKFAN-Ops/home-security-monitor?style=for-the-badge&logo=github&label=Star%20this%20repo" alt="Star"/>
-  </a>
-  <br><br>
   <sub>Built with ❤️ using Python & OpenCV</sub>
   <br>
   <sub>MIT © 2026 LKFAN-Ops</sub>

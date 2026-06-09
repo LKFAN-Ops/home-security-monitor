@@ -1,7 +1,4 @@
 <div align="center">
-  <br>
-  <img src="screenshots/monitor-preview.png" alt="家庭安全监控系统界面" width="850"/>
-  <br><br>
   <h1>🏠 家庭安全监控检测系统</h1>
   <p><strong>YOLOv8 人脸检测</strong> · <strong>通义千问视觉大模型</strong> · <strong>实时报警</strong> · <strong>自动录像</strong></p>
   <p>
@@ -14,6 +11,8 @@
     <a href="#-项目结构">📁 结构</a> ·
     <a href="#-技术栈">🛠️ 技术栈</a>
   </p>
+  <br>
+  <img src="screenshots/monitor-preview.png" alt="家庭安全监控系统界面" width="850"/>
   <br>
 </div>
 

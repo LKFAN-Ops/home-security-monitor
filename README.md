@@ -1,18 +1,15 @@
 <div align="center">
   <br>
-  <img src="screenshots/monitor-preview.png" alt="家庭安全监控系统" width="850" style="border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.3);">
+  <img src="screenshots/monitor-preview.png" alt="家庭安全监控系统界面" width="850"/>
   <br><br>
   <h1>🏠 家庭安全监控检测系统</h1>
+  <p><strong>YOLOv8 人脸检测</strong> · <strong>通义千问视觉大模型</strong> · <strong>实时报警</strong> · <strong>自动录像</strong></p>
   <p>
-    <strong>YOLOv8 人脸检测</strong> · <strong>通义千问视觉大模型</strong> · <strong>实时报警</strong> · <strong>自动录像</strong>
-  </p>
-  <p>
-    <img src="https://img.shields.io/badge/Python-3.8%2B-3776AB?style=flat-square&logo=python&logoColor=white">
-    <img src="https://img.shields.io/badge/YOLOv8-face-00C853?style=flat-square&logo=ultralytics&logoColor=white">
-    <img src="https://img.shields.io/badge/Qwen--VL-阿里云-FF6F00?style=flat-square&logo=alibabacloud&logoColor=white">
-    <img src="https://img.shields.io/badge/OpenCV-4.x-5C3EE8?style=flat-square&logo=opencv&logoColor=white">
-    <img src="https://img.shields.io/badge/Tkinter-GUI-FF4081?style=flat-square&logo=python&logoColor=white">
-    <img src="https://img.shields.io/badge/license-MIT-FFD700?style=flat-square">
+    <img src="https://img.shields.io/badge/Python-3.8%2B-3776AB?logo=python&logoColor=white" alt="Python"/>
+    <img src="https://img.shields.io/badge/YOLOv8-face-00C853?logo=ultralytics&logoColor=white" alt="YOLOv8"/>
+    <img src="https://img.shields.io/badge/Qwen--VL-阿里云-FF6F00?logo=alibabacloud&logoColor=white" alt="Qwen-VL"/>
+    <img src="https://img.shields.io/badge/OpenCV-4.x-5C3EE8?logo=opencv&logoColor=white" alt="OpenCV"/>
+    <img src="https://img.shields.io/badge/license-MIT-FFD700" alt="License"/>
   </p>
   <p>
     <a href="#-快速开始">🚀 快速开始</a> ·
@@ -26,41 +23,37 @@
 ---
 
 <div align="center">
-  <a href="https://github.com/LKFAN-Ops/home-security-monitor">
-    <img src="https://img.shields.io/github/stars/LKFAN-Ops/home-security-monitor?style=social&label=⭐%20Star%20这个项目">
+  <a href="https://github.com/LKFAN-Ops/home-security-monitor/stargazers">
+    <img src="https://img.shields.io/github/stars/LKFAN-Ops/home-security-monitor?style=social&label=Star%20这个项目" alt="stars"/>
   </a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/LKFAN-Ops/home-security-monitor/fork">
-    <img src="https://img.shields.io/github/forks/LKFAN-Ops/home-security-monitor?style=social&label=🍴%20Fork">
+  &nbsp;
+  <a href="https://github.com/LKFAN-Ops/home-security-monitor/forks">
+    <img src="https://img.shields.io/github/forks/LKFAN-Ops/home-security-monitor?style=social&label=Fork" alt="forks"/>
   </a>
-  &nbsp;&nbsp;
+  &nbsp;
   <a href="https://github.com/LKFAN-Ops/home-security-monitor/issues">
-    <img src="https://img.shields.io/github/issues/LKFAN-Ops/home-security-monitor?style=social&label=🐛%20Issue">
+    <img src="https://img.shields.io/github/issues/LKFAN-Ops/home-security-monitor?style=social&label=Issues" alt="issues"/>
   </a>
 </div>
 
 <br>
 
-> 🔥 **一个开箱即用的智能家庭安防方案** —— 用摄像头实时守护你的家，人脸检测 + AI 场景理解，全自动录像与报警。
+> 🔥 **一个开箱即用的智能家庭安防方案** —— 摄像头实时守护，人脸检测 + AI 场景理解，全自动录像与报警。
 
 <br>
 
 ## ✨ 核心功能
 
-<div align="center">
-
-| | 功能 | 描述 |
-|:-:|------|------|
-| 👤 | **实时人脸检测** | YOLOv8n-face 专用模型，毫秒级识别画面中的人脸 |
-| 🚨 | **入侵声光报警** | 检测到入侵者 → 画面红色警告栏 + 控制台日志 |
-| 🤖 | **AI 场景描述** | 通义千问 VL 大模型智能分析画面，描述人数、位置、行为 |
-| ⏱️ | **智能冷却机制** | 可配置冷却时间，避免重复报警刷屏 |
-| 📹 | **自动保存录像** | 全程录制带检测框的监控视频（MP4） |
-| 📄 | **事件报告生成** | 自动输出 TXT 格式安全日志，可追溯每一条报警 |
-| 🖥️ | **图形化界面** | Tkinter 可视化面板，参数实时可调，开箱即用 |
-| 📦 | **独立打包 exe** | PyInstaller 一键打包，脱离 Python 环境运行 |
-
-</div>
+| 功能 | 说明 |
+|------|------|
+| 👤 **实时人脸检测** | YOLOv8n-face 专用模型，毫秒级识别画面中的人脸 |
+| 🚨 **入侵声光报警** | 检测到入侵者 → 画面红色警告栏 + 控制台日志 |
+| 🤖 **AI 场景描述** | 通义千问 VL 大模型智能分析画面，描述人数、位置、行为 |
+| ⏱️ **智能冷却机制** | 可配置冷却时间，避免重复报警刷屏 |
+| 📹 **自动保存录像** | 全程录制带检测框的监控视频（MP4） |
+| 📄 **事件报告生成** | 自动输出 TXT 格式安全日志，可追溯每一条报警 |
+| 🖥️ **图形化界面** | Tkinter 可视化面板，参数实时可调，开箱即用 |
+| 📦 **独立打包 exe** | PyInstaller 一键打包，脱离 Python 环境运行 |
 
 <br>
 
@@ -94,49 +87,38 @@
 
 ## 🚀 快速开始
 
-### 📋 环境要求
+### 环境要求
 
-```
-✅ Python 3.8+
-✅ 摄像头（或本地视频文件）
-```
+- **Python 3.8+**
+- **摄像头**（或本地视频文件）
 
-### 📦 安装依赖
+### 安装依赖
 
 ```bash
 pip install ultralytics opencv-python openai requests pillow
 ```
 
-### 🔑 配置 API Key
+### 配置 API Key
 
-所有模块统一通过环境变量 `DASHSCOPE_API_KEY` 读取，**代码中不留任何密钥**，安全无忧。
-
-<details>
-<summary><b>📌 PowerShell 设置方法（点击展开）</b></summary>
+> 所有模块统一通过环境变量 `DASHSCOPE_API_KEY` 读取，**代码中不留任何密钥**，安全无忧。
 
 ```powershell
-# ✅ 推荐：设置为用户环境变量（持久化，重启后依然有效）
+# 推荐：设置为用户环境变量（持久化）
 [System.Environment]::SetEnvironmentVariable("DASHSCOPE_API_KEY", "sk-你的API密钥", "User")
 
-# ⏳ 临时设置（仅当前会话有效）
+# 或临时设置（仅当前会话）
 $env:DASHSCOPE_API_KEY = "sk-你的API密钥"
 ```
 
-</details>
+🔗 前往 [阿里云 DashScope](https://dashscope.aliyun.com/) 注册并免费获取 API Key。
 
-<br>
+### 运行系统
 
-> 🔗 前往 [阿里云 DashScope](https://dashscope.aliyun.com/) 注册并免费获取 API Key。
-
-### ▶️ 运行系统
-
-**方式一：命令行版**
 ```bash
+# 命令行版
 python safe.py
-```
 
-**方式二：图形界面版**（推荐）
-```bash
+# 图形界面版（推荐）
 python safe_gui.py
 ```
 
@@ -159,13 +141,13 @@ python safe_gui.py
 
 ## 📦 打包为独立 exe
 
-> 无需安装 Python，双击即可运行！
+无需安装 Python，双击即可运行！
 
 ```bash
-# 🚀 方式一：一键打包
+# 方式一：一键打包
 build.bat
 
-# 🛠️ 方式二：手动打包
+# 方式二：手动打包
 pip install pyinstaller
 pyinstaller 家庭安全监控工具.spec
 ```
@@ -189,18 +171,14 @@ pyinstaller 家庭安全监控工具.spec
 
 ## 🛠️ 技术栈
 
-<div align="center">
-
-| 技术 | 用途 | 官网 |
-|------|------|------|
-| <img src="https://img.shields.io/badge/YOLOv8-00C853?style=flat-square&logo=ultralytics&logoColor=white"> | 人脸检测模型 | [ultralytics.com](https://github.com/ultralytics/ultralytics) |
-| <img src="https://img.shields.io/badge/通义千问_VL-FF6F00?style=flat-square&logo=alibabacloud&logoColor=white"> | 视觉大模型场景描述 | [dashscope.aliyun.com](https://dashscope.aliyun.com/) |
-| <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white"> | 图像处理与视频流 | [opencv.org](https://opencv.org/) |
-| <img src="https://img.shields.io/badge/Tkinter-FF4081?style=flat-square&logo=python&logoColor=white"> | GUI 图形界面框架 | [docs.python.org](https://docs.python.org/3/library/tkinter.html) |
-| <img src="https://img.shields.io/badge/Pillow-3776AB?style=flat-square&logo=python&logoColor=white"> | 图像处理与界面渲染 | [python-pillow.org](https://python-pillow.org/) |
-| <img src="https://img.shields.io/badge/PyInstaller-FFD700?style=flat-square&logo=python&logoColor=white"> | 应用打包为 exe | [pyinstaller.org](https://pyinstaller.org/) |
-
-</div>
+| 技术 | 用途 |
+|------|------|
+| [YOLOv8](https://github.com/ultralytics/ultralytics) | 人脸检测模型 |
+| [通义千问 VL](https://dashscope.aliyun.com/) | 视觉大模型场景描述 |
+| [OpenCV](https://opencv.org/) | 图像处理与视频流 |
+| [Tkinter](https://docs.python.org/3/library/tkinter.html) | GUI 图形界面框架 |
+| [Pillow](https://python-pillow.org/) | 图像处理与界面渲染 |
+| [PyInstaller](https://pyinstaller.org/) | 应用打包为 exe |
 
 <br>
 
@@ -210,14 +188,11 @@ pyinstaller 家庭安全监控工具.spec
   <h3>⭐ 如果这个项目对你有帮助，请点个 Star 支持一下！</h3>
   <p>你的支持是我持续改进的动力 🚀</p>
   <br>
-  <a href="https://github.com/LKFAN-Ops/home-security-monitor">
-    <img src="https://img.shields.io/github/stars/LKFAN-Ops/home-security-monitor?style=for-the-badge&logo=github&label=⭐%20Star%20this%20repo" alt="Star">
+  <a href="https://github.com/LKFAN-Ops/home-security-monitor/stargazers">
+    <img src="https://img.shields.io/github/stars/LKFAN-Ops/home-security-monitor?style=for-the-badge&logo=github&label=Star%20this%20repo" alt="Star"/>
   </a>
   <br><br>
-  <p>
-    <sub>Built with ❤️ using Python & OpenCV</sub>
-  </p>
-  <p>
-    <sub>MIT © 2026 LKFAN-Ops</sub>
-  </p>
+  <sub>Built with ❤️ using Python & OpenCV</sub>
+  <br>
+  <sub>MIT © 2026 LKFAN-Ops</sub>
 </div>
